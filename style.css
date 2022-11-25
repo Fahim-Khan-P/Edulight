@@ -48,7 +48,7 @@ body {
 }
 
 .secondMenuList {
-  color: #d3d3d3;
+  color: rgb(56, 56, 56);
   font-size: 20px;
   font-family: 'Lato', sans-serif;
 }
@@ -63,7 +63,7 @@ body {
   display: flex;
   font-size: 40px;
   width: 100%;
-  background-color: white;
+  background-color: transparent;
   position: fixed;
   padding-left: 30px;
 }
@@ -129,7 +129,7 @@ body {
   display: flex;
   flex-direction: column;
   background-image: url(./images/dot.png);
-  background-color: black;
+  background-color: rgb(39, 42, 49);
   color: white;
 }
 
@@ -248,6 +248,24 @@ body {
   margin-top: 12px;
   font-size: 15px;
   line-height: 18px;
+}
+
+/* more button Style  */
+#more {
+  width: 90%;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  margin: 0 5% 5% 5%;
+  padding: 20px;
+  gap: 10px;
+  background-color: transparent;
+  border: 1px solid rgb(39, 42, 49);
+}
+
+#more i {
+  color: #e62e16;
 }
 
 /* About Section Style */
@@ -395,6 +413,10 @@ body {
 
 /* footer Section Style */
 
+/* .aboutFooter {
+  display: none;
+}  */
+
 .fotterPartnerDiv {
   display: flex;
   flex-direction: column;
@@ -457,6 +479,15 @@ body {
 
 @media screen and (min-width: 760px) {
   /* Desktop Hide Classes */
+
+  #more {
+    display: none;
+  }
+
+  .aboutFooter {
+    display: flex;
+    flex-direction: column;
+  }
 
   .dHide {
     display: none;
@@ -526,6 +557,7 @@ body {
     border: 3px solid #e62e16;
     padding: 6px;
     background: transparent;
+    color: rgb(236, 82, 66);
   }
 
   .navBtn:hover {
@@ -623,10 +655,6 @@ body {
   }
 
   /* about Section Media Querie */
-
-  .about {
-    /* margin-top: -25px; */
-  }
 
   .aboutTopDIv {
     text-align: center;

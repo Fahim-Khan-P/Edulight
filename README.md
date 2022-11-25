@@ -53,7 +53,7 @@
 
 > Here is a link to loom video.
 
-- [Loom Video Link](https://www.loom.com/share/f7d1a90513574d98b66174d3ea5e4fa3)
+- [Loom Video Link](https://www.loom.com/share/84c6342b5a2f421cbfce1b45e36300eb)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -122,6 +122,6 @@ If you like this project please give a star...
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](./mit.md) licensed.
+This project is [MIT](./MIT.md) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
