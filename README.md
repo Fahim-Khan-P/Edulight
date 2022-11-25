@@ -53,7 +53,7 @@
 
 > Here is a link to loom video.
 
-- [Loom Video Link]()
+- [Loom Video Link](https://www.loom.com/share/f7d1a90513574d98b66174d3ea5e4fa3)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
