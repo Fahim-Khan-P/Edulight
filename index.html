@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script
+    src="https://kit.fontawesome.com/df740146e4.js"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+    rel="stylesheet"
+  />
+    <link
+    href='https://fonts.googleapis.ccom/css2?family=Lato:ital,wght@0 ,400;0,600;0,700;0,900;1,300&display=swap'
+    rel="stylesheet"
+  />
+
+  <script src="https://cdn.tailwindcss.com"></script>
+    <title>Capston</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+
+<!-- Desktop Version very Top Nav Bar -->
+        <nav class="topNav mHide">
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#">English</a>
+            <a href="#">My page</a>
+            <a href="#">Logout</a>
+        </nav>
+        
+<!-- Desktop Version Second Nav Bar  -->
+        <nav class="secondNav mHide">
+            <a href="./index.html"><img src="./images/eduNon.png" class="navLogo" alt=""></a>
+            <ul class="secondNavUl">
+                <a href="./about.html" class="secondMenuA"><li class="secondMenuList" id="aboutRed">About</li> </a>
+                <a href="#programs" class="secondMenuA"><li class="secondMenuList">Program</li> </a>
+                <a href="#join" class="secondMenuA"><li class="secondMenuList">Join</li> </a>
+                <a href="#sponsor" class="secondMenuA"><li class="secondMenuList">Sponsor</li> </a>
+                <a href="" class="secondMenuA"><li class="secondMenuList">News</li> </a>
+                <button class="navBtn">ECC Compaign</button>
+            </ul> 
+        </nav>
+
+<!-- Mobile Version humberger menu  -->
+        <nav class="navagation" id="navagation">
+            <a href="#" class="menu dHide" id="humberger"><i class="fa-solid fa-bars"></i></a>
+        </nav>
+
+<!-- Mobile Close Menu Nav Bar (Hide in Normal state) -->
+        <nav class="mobileNav" id="mobileNav">
+            <a href="#" id="closemenu" ><i class="fa-solid fa-xmark"></i></a>
+            <ul class="moblieCrossMenu">
+                <a href="./about.html" class="secondMenuA"><li class="secondMenuList">About</li> </a>
+                <a href="#programs" class="secondMenuA" id ="programClose"><li class="secondMenuList">Program</li> </a>
+                <a href="#join" class="secondMenuA" id="joinClose"><li class="secondMenuList">Join</li> </a>
+                <a href="#sponsor" class="secondMenuA" id="sponsorClose"><li class="secondMenuList">Sponsor</li> </a>
+                <a href="" class="secondMenuA" id = 'news'><li class="secondMenuList">News</li> </a>
+            </ul>
+        </nav>
+    </header>
+
+<!-- Home Page Section Code  -->
+    <main class="homePage">
+        <div class="homePageContent">
+            <h3 class="homePageh3">"Hello dear Students"</h3>
+            <h1 class="homePageh1">EDULIGHT ENGLISH LANGUAGE CENTER 2022</h1>
+            <p class="homePageP"> The only center that prapare you to international exams like toefl iealts sat and dulingo. join eduligth for your bright future.</p>
+            <p class="mainPageBottomP">2020.02.29(THU) ~ 26(FRI)
+                    <p class="mainPageBottomPSpan">@ NO 1 Educational center in Kabul, Afhganisan.</p>
+            </p>
+        </div>       
+    </main>
+
+<!-- Program Section HTML codr -->
+    <section class="sec programSection" id="programs">
+
+        <h3 class="programSectionh3">
+            Main Programs
+        </h3>
+        <div class="mp-underline"></div>
+
+        <div class="mainProgram">
+            <div class="programs">
+                <i class="fa-solid fa-book-open-reader programIcons"></i>
+                <h4 class="mainProgramh4">TOEFL</h4>
+                <p class="mainProgramDescription">Join our three months preaparaion classes and preapare your self to TOEFL international exam.</p>
+            </div>
+            <div class="programs">
+                <i class="fa-solid fa-book programIcons"></i>
+                <h4 class="mainProgramh4">IEALTS</h4>
+                <p class="mainProgramDescription">Join our three months preaparaion classes and preapare your self to IEALTS international exam.</p>
+            </div>
+            <div class="programs">
+                <i class="fa-solid fa-book-open-reader programIcons"></i>
+                <h4 class="mainProgramh4">SAT</h4>
+                <p class="mainProgramDescription">Join our three months preaparaion classes and preapare your self to SAT international exam.</p>
+            </div>
+            <div class="programs">
+                <i class="fa-solid fa-book programIcons"></i>
+                <h4 class="mainProgramh4">GAT</h4>
+                <p class="mainProgramDescription">Join our three Gat  preaparaion classes and preapare your self to GAT international exam.</p>
+            </div>
+            <div class="programs">
+                <i class="fa-solid fa-book-open-reader programIcons"></i>
+                <h4 class="mainProgramh4">DULINGO</h4>
+                <p class="mainProgramDescription">Join our 2 months preaparaion classes and preapare your self to international DULINGO exam.</p>
+            </div>
+        </div>
+
+        <a href="#" class="mainProgramBtn" id="join">Join Eduligth program</a>
+
+    </section>
+
+
+    <!-- Teacher Section that runs dynamically through Javascript -->
+    <section class="teacherSection" id="teacherSection"></section>
+<!-- 
+    <button id="more" class="dHide">More
+        <i class="fa-solid fa-chevron-down"></i>
+    </button> -->
+
+    <!-- Footer Section  -->
+        <footer class="aboutFooter">
+
+            <div class="fotterPartnerDiv">
+                <h2 class="aboutFooterh2">
+                    Partner
+                </h2>
+                <div class="mp-underline logoUnderline"></div>
+
+                <div class="footerPartnerDivContent" id="sponsor">
+                    <h2 class="parnterName mozilla">mozilla</h2>
+                    <h2 class="google parnterName">Google</h2>
+                    <h2 class="vs parnterName">Visual Studio</h2>
+                    <h2 class="Microverse parnterName">Toefl</h2>
+                    <h2 class="github parnterName">GitHub</h2>
+                </div>
+            </div>
+            <div class="footerLastDiv">
+                <p class="footerLastDIvLeftP">Edulight English Language Center</p>
+                <p class="footerLastDivRightP">2022 Edulight ECC Kabul some rights Reserved.</p>
+            </div>
+        </footer>
+
+        <!-- link to Javascript -->
+    <script src="./type.js"></script>
+
+</body>
+</html>

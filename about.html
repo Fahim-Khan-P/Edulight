@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script
+      src="https://kit.fontawesome.com/df740146e4.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Capston</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation related elements  -->
+
+    <header>
+      <!-- Desktop Top Nav Bar -->
+      <nav class="topNav mHide">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#">English</a>
+        <a href="#">My page</a>
+        <a href="#">Logout</a>
+      </nav>
+
+      <!-- Desktop Second Nav Bar -->
+      <nav class="secondNav mHide">
+        <a href="./index.html"
+          ><img src="./images/eduNon.png" class="navLogo" alt=""
+        /></a>
+        <ul class="secondNavUl">
+          <a href="./index.html" class="secondMenuA"
+            ><li id="aboutRed" class="secondMenuList">Home</li>
+          </a>
+          <a href="#programs" class="secondMenuA"><li class="secondMenuList">Program</li> </a>
+          <a href="#join" class="secondMenuA"><li class="secondMenuList">Join</li> </a>
+          <a href="#sponsor" class="secondMenuA"><li class="secondMenuList">Sponsor</li> </a>
+          </a>
+          <a href="#" class="secondMenuA"
+            ><li class="secondMenuList">News</li>
+          </a>
+          <button class="navBtn">ECC Compaign</button>
+        </ul>
+      </nav>
+
+      <!-- Mobile Normal Nav Bar -->
+      <!-- Mobile Version humberger menu  -->
+      <nav class="navagation" id="navagation">
+        <a href="#" class="menu dHide" id="humberger"
+          ><i class="fa-solid fa-bars"></i
+        ></a>
+      </nav>
+
+          <!-- Mobile Close Menu Nav Bar (Hide in Normal state) -->
+          <nav class="mobileNav" id="mobileNav">
+            <a href="#" id="closemenu" ><i class="fa-solid fa-xmark"></i></a>
+            <ul class="moblieCrossMenu">
+                <a href="./index.html" class="secondMenuA"><li class="secondMenuList">Home</li> </a>
+                <a href="#programs" class="secondMenuA" id ="programClose"><li class="secondMenuList">Program</li> </a>
+                <a href="#join" class="secondMenuA" id="joinClose"><li class="secondMenuList">Join</li> </a>
+                <a href="#sponsor" class="secondMenuA" id="sponsorClose"><li class="secondMenuList">Sponsor</li> </a>
+                <a href="" class="secondMenuA" id = 'news'><li class="secondMenuList">News</li> </a>
+            </ul>
+          </nav>
+    </header>
+
+    <section class="about">
+      <div class="aboutTopDIv">
+        <h1 class="abouth1">EDULIGHT ENGLISH LANGUAGE CENTER 2022</h1>
+
+        <p class="aboutP">
+          The only center that prapare you to international exams like toefl
+          iealts sat and dulingo. If you want to learn English like a native
+          languge you can join eduligth
+          <span class="mobileHide">
+            we have preapared both online and pysical classe you can choose on
+            of mentioned classes,</span
+          >Edulight is just for your bright future.
+        </p>
+
+        <p class="aboutAdressP">
+          Please contact us per Email for any further information about EEC
+          languge Center 2022!
+          <a href="" class="aboutAdressEmail"> Edulight2020.edu.af </a>
+        </p>
+      </div>
+
+      <div class="aboutLogoDiv">
+        <h2 class="aboutLogoh2">Edulight English Learning Center 2022 Logo</h2>
+        <div class="mp-underline logoUnderline"></div>
+        <p class="aboutLogoP">
+          The logp of EEC Language center 2022 was made by the Afghan Graphic
+          Design Company in 8th January.
+        </p>
+        <img src="./images/eduLogo.jpg" alt="LOGO" class="logoImage" />
+      </div>
+
+      <div class="aboutMiddleDiv">
+        <h3 class="aboutMiddleDivh3">See The past ECC Cermoney</h3>
+        <div class="mp-underline logoUnderline"></div>
+        <p class="aboutMiddleDivP">
+          Take a look at the last two Edulight ECC Students graduation cermony
+          which took place in kabul Afghanistna.
+        </p>
+
+        <div class="aboutImage">
+          <div class="firstCermoney cermony">
+            <h2 class="cermonyYear">2020</h2>
+            <p class="cermonyP">ECC Language Center Cermoney in Kabul</p>
+          </div>
+
+          <div class="secondCermoney cermony">
+            <h2 class="cermonyYear">2021</h2>
+            <p class="cermonyP">ECC Language Center Cermoney in Kabul</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="aboutFooter">
+      <div class="fotterPartnerDiv aboutDesktopHide">
+        <h2 class="aboutFooterh2">Partner</h2>
+        <div class="mp-underline logoUnderline"></div>
+
+        <div class="footerPartnerDivContent" id="sponsor">
+          <h2 class="parnterName mozilla">mozilla</h2>
+          <h2 class="google parnterName">Google</h2>
+          <h2 class="Microverse parnterName">Toefl</h2>
+          <h2 class="vs parnterName">Visual Studio</h2>
+          <h2 class="github parnterName">GitHub</h2>
+        </div>
+      </div>
+
+      <div class="footerLastDiv aboutLastFooter">
+        <p class="footerLastDIvLeftP">Edulight English Language Center</p>
+        <p class="footerLastDivRightP">
+          2022 Edulight ECC Kabul some rights Reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./type.js"></script>
+  </body>
+</html>
